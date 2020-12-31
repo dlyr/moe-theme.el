@@ -654,8 +654,8 @@ Moe, moe, kyun!")
    `(flymake-errline ((,class (:underline ,red-2))))
 
    ;; Flycheck
-   `(flycheck-error ((,class (:background ,red-2 :foreground ,white-0 :bold t))))
-   `(flycheck-warnline ((,class (:background ,orange-2 :foreground ,white-0 :bold t))))
+   `(flycheck-error ((,class (:underline ,red-2))))
+   `(flycheck-warnline ((,class (:underline ,orange-2))))
 
    ;; Malabar
    `(malabar-error-face ((,class (:underline ,red-2))))
